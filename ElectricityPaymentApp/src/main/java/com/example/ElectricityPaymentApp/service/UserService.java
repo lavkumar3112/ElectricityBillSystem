@@ -1,10 +1,8 @@
 package com.example.ElectricityPaymentApp.service;
 
-import com.example.ElectricityPaymentApp.entity.LoginDto;
+import com.example.ElectricityPaymentApp.dto.LoginDto;
 import com.example.ElectricityPaymentApp.entity.User;
-import com.example.ElectricityPaymentApp.repository.UserProfileRepository;
 import com.example.ElectricityPaymentApp.repository.UserRepository;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 @Service
 public class UserService {

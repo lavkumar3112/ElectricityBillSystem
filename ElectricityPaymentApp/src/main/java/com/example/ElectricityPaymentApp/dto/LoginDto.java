@@ -1,4 +1,4 @@
-package com.example.ElectricityPaymentApp.entity;
+package com.example.ElectricityPaymentApp.dto;
 
 public class LoginDto {
   private String email;
